@@ -1,0 +1,103 @@
+@charset "ISO-8859-1";
+
+@font-face{
+	
+	font-family: miTipografia;
+	src: url(../font/maiden.ttf);
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+
+div#content{
+	border: 2px solid yellow;
+	width: 800px;
+	margin: 20px;
+	padding: 50px;
+}
+
+body{
+	
+	background-color: #0F0;
+	font-size: 12px;
+	
+}
+
+header, section, footer{
+	
+	border: 2px solid red;
+	width: 80%;
+	
+}
+
+header *{
+	
+	display: block;
+	float: left;
+	background-color: olive;
+	
+}
+
+section p{
+
+	width: 60%;
+	float: left;
+	
+}
+
+section img{
+	
+	display: block;
+	width: 30%;
+	float: right;
+	
+}
+
+section hr{
+	
+	display: block;
+	margin: auto;
+	width: 80%;
+	
+}
+
+section iframe{
+	
+	width: 50%;
+	float: left;
+	display: block;
+	
+}
+
+
+footer ul{
+	
+	display: inline-block;
+	
+}
+
+footer ul li{
+	float: left;;
+	width: 100px;
+	border: 1px solid blue;
+	text-align: center;
+	list-style-type: none;
+}
+
+footer ul li a{
+	
+}
+
+h2{
+	
+	font-family: 'Krona One', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5ex;
+	
+}
+
+h3 {
+	
+	font-family: miTipografia;
+}
